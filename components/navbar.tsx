@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation';
 import { BookMarked, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
-
+import Image from 'next/image';
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/book-store', label: 'Book Store' },
-  { href: '/online-books', label: 'Online Books' },
+  { href: '/online-books', label: 'E-Books' },
   { href: '/publish-book', label: 'Publish Book' },
   { href: '/publish-chapter', label: 'Publish Book Chapter' },
   { href: '/contact', label: 'Contact Us' },
@@ -28,14 +28,21 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
-              <BookMarked className="w-6 h-6 text-white" />
-            </div>
+            
             <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                Publication House
-              </h1>
+              <div>
+              <Image
+            src="/image/logo2.jpeg"
+            alt="Publication House Logo"
+            width={60}
+            height={60}
+            className="rounded-full"
+          />
+              </div>
             </div>
+            <span className="text-2xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+              Quillip Publications
+            </span>
           </Link>
 
           <div className="hidden md:flex items-center gap-1">

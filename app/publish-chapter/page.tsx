@@ -183,36 +183,7 @@ function App() {
           </div>
         </section>
 
-        <section className="mb-20">
-          <div className="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
-            <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full -ml-48 -mb-48"></div>
-
-            <div className="relative z-10">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">How Quillip Publications Supports Chapter Authors?</h2>
-
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {[
-                  { num: '1', title: 'Editorial Excellence', desc: 'Our experienced editorial team ensures that your chapter is polished and aligned with the overall vision of the book' },
-                  { num: '2', title: 'Professional Guidance', desc: 'From topic selection to final revisions, we provide personalized support at every step of the process' },
-                  { num: '3', title: 'Global Reach', desc: 'Our edited books are distributed internationally, ensuring your work reaches the right audience' },
-                  { num: '4', title: 'Collaborative Opportunities', desc: 'You get to connect and collaborate with other contributors, fostering meaningful academic relationships' },
-                  { num: '5', title: 'Recognition and Credibility', desc: 'Your contribution is acknowledged with a publication certificate and inclusion in a book with an ISBN' },
-                ].map((item, index) => (
-                  <div
-                    key={index}
-                    className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 border border-white/20 animate-fade-in-up"
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    <div className="text-5xl font-bold text-white/30 mb-3">{item.num}</div>
-                    <h3 className="text-xl font-bold mb-3">{item.title}</h3>
-                    <p className="text-blue-50 leading-relaxed">{item.desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+       
 
         <section className="mb-20">
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-blue-100">
@@ -247,17 +218,7 @@ function App() {
           </div>
         </section>
 
-        <section className="mb-20">
-          <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-3xl p-12 text-white text-center shadow-2xl">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Join Us in Shaping Knowledge</h2>
-            <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed mb-8">
-              Publishing a chapter with us allows you to make a significant impact in your field while being part of a larger scholarly conversation. It's a unique opportunity to showcase your expertise, connect with other thought leaders and contribute to a high-quality academic or professional resource.
-            </p>
-            <p className="text-2xl font-semibold">
-              Let your insights be part of something bigger—partner with us for your next chapter publication!
-            </p>
-          </div>
-        </section>
+        
 
         <section className="mb-12">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-blue-100">

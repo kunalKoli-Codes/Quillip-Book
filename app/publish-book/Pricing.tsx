@@ -2,50 +2,50 @@ import { Check } from 'lucide-react';
 
 const physicalBooks = [
   {
-    size: 'A5',
+    size: 'A5 (Dimesion: 5.5 x 8.5 inches)',
     pages: 'Up to 100',
-    priceINR: '₹7,000',
-    priceUSD: '$100',
+    priceINR: '₹5,000',
+    priceUSD: '$80',
     copies: '5',
     gradient: 'from-cyan-500 to-blue-600'
   },
   {
-    size: 'A5',
+    size: 'A5 (Dimesion: 5.5 x 8.5 inches)',
     pages: 'Up to 200',
-    priceINR: '₹8,000',
-    priceUSD: '$125',
+    priceINR: '₹6,000',
+    priceUSD: '$100',
     copies: '5',
     gradient: 'from-blue-500 to-teal-600'
   },
-  {
-    size: 'A5',
+  { 
+    size: 'A5 (Dimesion: 5.5 x 8.5 inches)',
     pages: 'Up to 300',
-    priceINR: '₹9,000',
-    priceUSD: '$150',
+    priceINR: '₹7,000',
+    priceUSD: '$120',
     copies: '5',
     gradient: 'from-teal-500 to-cyan-600'
   },
   {
-    size: 'A4',
+    size: 'A4 (Dimesion: 8 x 11 inches)',
     pages: 'Up to 100',
-    priceINR: '₹9,000',
-    priceUSD: '$130',
+    priceINR: '₹7,000',
+    priceUSD: '$120',
     copies: '4',
     gradient: 'from-cyan-500 to-blue-600'
   },
-  {
-    size: 'A4',
+  { 
+    size: 'A4 (Dimesion: 8 x 11 inches)',
     pages: 'Up to 200',
-    priceINR: '₹11,000',
-    priceUSD: '$160',
+    priceINR: '₹9,000',
+    priceUSD: '$140',
     copies: '4',
     gradient: 'from-blue-500 to-teal-600'
   },
   {
-    size: 'A4',
+    size: 'A4 (Dimesion: 8 x 11 inches)',
     pages: 'Up to 300',
-    priceINR: '₹13,000',
-    priceUSD: '$190',
+    priceINR: '₹11,000',
+    priceUSD: '$160',
     copies: '4',
     gradient: 'from-teal-500 to-cyan-600'
   }
@@ -54,20 +54,20 @@ const physicalBooks = [
 const eBooks = [
   {
     pages: 'Up to 100',
-    priceINR: '₹5,000',
-    priceUSD: '$60',
+    priceINR: '₹3,500',
+    priceUSD: '$40',
     gradient: 'from-cyan-500 to-blue-600'
   },
   {
     pages: 'Up to 200',
-    priceINR: '₹6,000',
-    priceUSD: '$70',
+    priceINR: '₹4,500',
+    priceUSD: '$50',
     gradient: 'from-blue-500 to-teal-600'
   },
   {
     pages: 'Up to 300',
-    priceINR: '₹7,000',
-    priceUSD: '$80',
+    priceINR: '₹5,500',
+    priceUSD: '$60',
     gradient: 'from-teal-500 to-cyan-600'
   }
 ];
