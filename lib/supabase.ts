@@ -95,7 +95,11 @@ export type BookChapter = {
   cover_page_url?: string;
   syllabus_url?: string;
   meta_description?: string;
-  meta_keywords?: string;
+  deadline: string;
+  charges: string;
+  cover_page?: string;
+  syllabus?: string;
+  meta_keyword?: string;
   status: 'new' | 'read' | 'replied';
   created_at: string;
 };
