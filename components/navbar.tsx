@@ -64,13 +64,7 @@ export function Navbar() {
             })}
           </div>
 
-          <div className="hidden md:block">
-            <Link href="/login">
-              <Button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-lg">
-                Admin Login
-              </Button>
-            </Link>
-          </div>
+       
 
           <button
             className="md:hidden p-2"
