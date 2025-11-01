@@ -4,19 +4,19 @@ const benefits = [
   {
     icon: Globe,
     title: 'Global Recognition',
-    description: 'Your book is uniquely identifiable, allowing readers and retailers to locate it effortlessly.',
+    description: 'Your book becomes easily identifiable, allowing readers, libraries, and retailers to find it effortlessly across the world.',
     gradient: 'from-cyan-500 to-blue-600'
   },
   {
     icon: Library,
-    title: 'Ease of Distribution',
-    description: 'ISBNs are a prerequisite for listing your book in online stores, library catalogs and international databases.',
+    title: 'Easy Distribution',
+    description: 'An ISBN is essential for listing your book on major platforms, online stores, and library networks—expanding your reach and accessibility.',
     gradient: 'from-blue-500 to-teal-600'
   },
   {
     icon: Award,
-    title: 'Professional Credibility',
-    description: 'An ISBN is a hallmark of professionalism, signaling that your work meets industry norms and standards.',
+    title: 'Professional Value',
+    description: 'It adds credibility to your work, showing that your book meets publishing standards and is officially recognized in the literary marketplace.',
     gradient: 'from-teal-500 to-cyan-600'
   }
 ];
@@ -43,15 +43,15 @@ export default function ISBN() {
 
         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 mb-12 animate-slide-in-up">
           <p className="text-lg text-slate-300 leading-relaxed mb-6">
-            An <span className="font-bold text-cyan-400">International Standard Book Number (ISBN)</span> is a unique identifier assigned to your book, setting it apart in the global literary ecosystem. It ensures ease of tracking, listing and distribution across various platforms and marketplaces.
+            An <span className="font-bold text-cyan-400">International Standard Book Number (ISBN)</span> is a unique identification number assigned to each published book. It helps distinguish your book in the global publishing world, making it easier to track, list, and sell through bookstores, libraries and online platforms.
           </p>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Having an ISBN grants your work formal recognition, making it discoverable by readers, libraries and retailers worldwide.
+            Having an ISBN gives your book official recognition and ensures it can be easily discovered by readers and distributors worldwide.
           </p>
         </div>
 
         <h3 className="text-3xl font-bold text-white mb-8 text-center">
-          Why Does Every Book Need an ISBN?
+          Why is an ISBN Important?
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
